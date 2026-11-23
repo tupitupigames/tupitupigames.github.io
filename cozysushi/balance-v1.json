@@ -1,0 +1,1935 @@
+{
+  "schemaVersion": 1,
+  "dailyMissionTargets": {
+    "PlatesWashed": [
+      [
+        200,
+        250,
+        300
+      ],
+      [
+        2000,
+        2500,
+        3000,
+        3500
+      ],
+      [
+        2000,
+        2500,
+        5000,
+        7500
+      ]
+    ],
+    "PatronVisits": [
+      [
+        25,
+        50,
+        100
+      ],
+      [
+        50,
+        100,
+        150,
+        250
+      ],
+      [
+        50,
+        100,
+        200,
+        300
+      ]
+    ],
+    "DecorationTriggers": [
+      [
+        50,
+        50,
+        75
+      ],
+      [
+        75,
+        75,
+        125,
+        150
+      ],
+      [
+        100,
+        100,
+        150,
+        200
+      ]
+    ],
+    "SushiMade": [
+      [
+        25,
+        35,
+        50
+      ],
+      [
+        50,
+        75,
+        100,
+        150
+      ],
+      [
+        50,
+        75,
+        100,
+        150
+      ]
+    ],
+    "QuickHappyDepartures": [
+      [
+        25,
+        50,
+        75
+      ],
+      [
+        35,
+        70,
+        125,
+        150
+      ],
+      [
+        50,
+        75,
+        100,
+        200
+      ]
+    ],
+    "VipVisits": [
+      [
+        5,
+        5,
+        10
+      ],
+      [
+        10,
+        10,
+        10,
+        20
+      ],
+      [
+        15,
+        15,
+        15,
+        25
+      ]
+    ],
+    "CoinsEarned": [
+      [
+        500,
+        1250,
+        2500
+      ],
+      [
+        750,
+        1750,
+        3500,
+        5000
+      ],
+      [
+        1000,
+        2500,
+        5000,
+        7500
+      ]
+    ],
+    "GroupPartiesSeated": [
+      [
+        10,
+        10,
+        15
+      ],
+      [
+        20,
+        20,
+        25,
+        50
+      ],
+      [
+        40,
+        40,
+        50,
+        75
+      ]
+    ]
+  },
+  "patronSpawn": {
+    "intervalSeconds": 20.0,
+    "reductionN": 100.0,
+    "reductionPerDiscovery": 1.0,
+    "minimumReductionN": 1.0,
+    "startingChance": 0.20,
+    "missedRollMultiplier": 1.1,
+    "missedRollTableIncrement": 0.25,
+    "occupiedClockRate": 0.25
+  },
+  "santaSpawn": {
+    "giftboxesPerDay": 3,
+    "startMonth": 12,
+    "startDay": 1,
+    "endMonth": 12,
+    "endDay": 31
+  },
+  "patronFondness": {
+    "happyGainPercent": 2,
+    "minimumHappyGain": 0.05,
+    "angryLossPercent": 10
+  },
+  "patronOccupations": {
+    "apprentice-mechanic":  { "patience": 45, "hunger": [2, 4],  "eatingSeconds": 2 },
+    "artist":               { "patience": 46, "hunger": [2, 3],  "eatingSeconds": 2 },
+    "barista":              { "patience": 47, "hunger": [2, 4],  "eatingSeconds": 2 },
+    "cashier":              { "patience": 48, "hunger": [2, 3],  "eatingSeconds": 2 },
+    "cleaner":              { "patience": 49, "hunger": [2, 4],  "eatingSeconds": 2 },
+    "delivery-rider":       { "patience": 48, "hunger": [2, 3],  "eatingSeconds": 2 },
+    "fitness-trainer":      { "patience": 47, "hunger": [2, 4],  "eatingSeconds": 2 },
+    "gardener":             { "patience": 46, "hunger": [2, 3],  "eatingSeconds": 2 },
+    "library-assistant":    { "patience": 44, "hunger": [2, 4],  "eatingSeconds": 2 },
+    "shop-assistant":       { "patience": 46, "hunger": [2, 3],  "eatingSeconds": 2 },
+    "student":              { "patience": 45, "hunger": [2, 4],  "eatingSeconds": 2 },
+    "accountant":           { "patience": 31, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "baker":                { "patience": 30, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "carpenter":            { "patience": 31, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "chef":                 { "patience": 30, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "doctor":               { "patience": 32, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "electrician":          { "patience": 33, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "firefighter":          { "patience": 30, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "florist":              { "patience": 33, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "graphic-designer":     { "patience": 31, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "journalist":           { "patience": 31, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "mechanic":             { "patience": 32, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "nurse":                { "patience": 31, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "office-worker":        { "patience": 32, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "photographer":         { "patience": 33, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "plumber":              { "patience": 35, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "police-officer":       { "patience": 31, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "software-developer":   { "patience": 32, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "street-musician":      { "patience": 31, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "teacher":              { "patience": 29, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "tour-guide":           { "patience": 31, "hunger": [4, 7],  "eatingSeconds": 2.5 },
+    "train-conductor":      { "patience": 30, "hunger": [4, 6],  "eatingSeconds": 2.5 },
+    "airline-pilot":        { "patience": 24, "hunger": [7, 9],  "eatingSeconds": 1.5 },
+    "executive":            { "patience": 23, "hunger": [7, 11], "eatingSeconds": 1.5 },
+    "investor":             { "patience": 26, "hunger": [7, 9],  "eatingSeconds": 1.5 },
+    "lawyer":               { "patience": 25, "hunger": [7, 11], "eatingSeconds": 1.5 },
+    "surgeon":              { "patience": 24, "hunger": [7, 9],  "eatingSeconds": 1.5 },
+    "snowman":              { "eatingSeconds": 3 },
+    "rich:rich-man":        { "eatingSeconds": 2, "visitSeconds": [20, 35] },
+    "rich:rich-woman":      { "eatingSeconds": 2, "visitSeconds": [25, 30] },
+    "rich:vip-fur":         { "eatingSeconds": 2, "visitSeconds": [20, 35] },
+    "rich:vip-kimono":      { "eatingSeconds": 2, "visitSeconds": [25, 30] },
+    "rich:vip-cape":        { "eatingSeconds": 2, "visitSeconds": [20, 35] },
+    "rich:vip-hat":         { "eatingSeconds": 2, "visitSeconds": [25, 30] },
+    "rich:vip-sari":        { "eatingSeconds": 2, "visitSeconds": [20, 35] },
+    "rich:vip-street":      { "eatingSeconds": 2, "visitSeconds": [25, 30] },
+    "rich:vip-embroidered": { "eatingSeconds": 2, "visitSeconds": [20, 35] },
+    "rich:santa":           { "eatingSeconds": 2 }
+  },
+  "patronPatience": {
+    "urgentRemainingSeconds": 15,
+    "zenGardenBonusSeconds": {
+      "floor": 2.5,
+      "pedestal": 5
+    }
+  },
+  "upgrades": {
+    "chef": [
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 5
+      },
+      {
+        "coins": 250,
+        "stars": 500,
+        "badges": 5
+      },
+      {
+        "coins": 500,
+        "stars": 1000,
+        "badges": 5
+      },
+      {
+        "coins": 1000,
+        "stars": 2500,
+        "badges": 10
+      }
+    ],
+    "washerWorker": [
+      {
+        "coins": 0,
+        "stars": 100,
+        "badges": 2
+      },
+      {
+        "coins": 0,
+        "stars": 200,
+        "badges": 2
+      },
+      {
+        "coins": 0,
+        "stars": 300,
+        "badges": 2
+      },
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 4
+      }
+    ],
+    "waiter": [
+      {
+        "coins": 0,
+        "stars": 300,
+        "badges": 0
+      },
+      {
+        "coins": 0,
+        "stars": 300,
+        "badges": 0
+      },
+      {
+        "coins": 0,
+        "stars": 300,
+        "badges": 0
+      },
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 5
+      }
+    ],
+    "sushiStation": [
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 10
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 15
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 20
+      },
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 25
+      }
+    ],
+    "washerStation": [
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 5
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 5
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 5
+      },
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 5
+      }
+    ],
+    "plateStation": [
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 5
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 5
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 5
+      },
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 5
+      }
+    ],
+    "drinkStation": [
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 15
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 25
+      },
+      {
+        "coins": 0,
+        "stars": 0,
+        "badges": 40
+      },
+      {
+        "coins": 0,
+        "stars": 500,
+        "badges": 60
+      }
+    ],
+    "restaurantExpansion": [
+      {
+        "coins": 100000,
+        "stars": 25000,
+        "badges": 25
+      },
+      {
+        "coins": 500000,
+        "stars": 100000,
+        "badges": 50
+      },
+      {
+        "coins": 2500000,
+        "stars": 100000,
+        "badges": 100
+      }
+    ]
+  },
+  "decorations": {
+    "bonsai": 32750,
+    "bamboo": 35500,
+    "ikebana": 58750,
+    "paper-lantern": 46250,
+    "maneki-neko": 100,
+    "daruma": 28500,
+    "tanuki": 94750,
+    "kokeshi": 62500,
+    "zen-garden": 88500,
+    "temari-ball": 31250,
+    "coin-tray": 29750,
+    "broom-rabbit": 68750,
+    "karakuri-doll": 103500,
+    "kimono-basket": 56500,
+    "lucky-owl": 28750,
+    "lotus-bowl": 39750,
+    "bronze-bell": 34500,
+    "andon-lantern": 26750,
+    "wave-sculpture": 38250,
+    "taiyaki-ornament": 36250,
+    "maple-bonsai": 41500,
+    "brush-scroll": 78250,
+    "plum-fan": 71500,
+    "puzzle-box": 86750,
+    "soroban": 44750,
+    "shiba-guardian": 126500,
+    "red-wind-chime": 147500,
+    "station-clock": 96750,
+    "mini-pagoda": 112500,
+    "jubako-box": 63750,
+    "white-orchid": 108500,
+    "balance-stones": 74250,
+    "origami-crane": 118750,
+    "golden-koi": 156250
+  },
+  "sushi": {
+    "omakase:GiantShrimpOmakase": {
+      "name": "Giant Shrimp Omakase",
+      "unlockCoins": 82500,
+      "unlockStars": 16500,
+      "basePrice": 4.125
+    },
+    "omakase:KoiOmakase": {
+      "name": "Koi Omakase",
+      "unlockCoins": 162500,
+      "unlockStars": 32500,
+      "basePrice": 8.125
+    },
+    "omakase:LotusOmakase": {
+      "name": "Lotus Omakase",
+      "unlockCoins": 132500,
+      "unlockStars": 26500,
+      "basePrice": 6.625
+    },
+    "omakase:MoonlitCurrentOmakase": {
+      "name": "Moonlit Current Omakase",
+      "unlockCoins": 162500,
+      "unlockStars": 32500,
+      "basePrice": 8.125
+    },
+    "omakase:PearlSpiralOmakase": {
+      "name": "Pearl Spiral Omakase",
+      "unlockCoins": 110000,
+      "unlockStars": 22000,
+      "basePrice": 5.5
+    },
+    "omakase:RubyFanOmakase": {
+      "name": "Ruby Fan Omakase",
+      "unlockCoins": 85000,
+      "unlockStars": 17000,
+      "basePrice": 4.25
+    },
+    "sushi-variation:148": {
+      "name": "Salmon Onion Nigiri",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 2.16
+    },
+    "sushi-variation:149": {
+      "name": "Salmon Cheese Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 2.24
+    },
+    "sushi-variation:150": {
+      "name": "Salmon Garlic Chips Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 2.3
+    },
+    "sushi-variation:151": {
+      "name": "Tuna Cheese Nigiri",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.62
+    },
+    "sushi-variation:152": {
+      "name": "Tuna Scallion Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.68
+    },
+    "sushi-variation:153": {
+      "name": "Salmon belly Yuzu Nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 2.43
+    },
+    "sushi-variation:154": {
+      "name": "Ootoro Wasabi Nigiri",
+      "unlockCoins": 13000,
+      "unlockStars": 3000,
+      "basePrice": 2.7
+    },
+    "sushi-variation:155": {
+      "name": "Tamago Mayo Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.54
+    },
+    "sushi-variation:156": {
+      "name": "Tamago Scallion Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.56
+    },
+    "sushi-variation:157": {
+      "name": "Shrimp Mayo Nigiri",
+      "unlockCoins": 5500,
+      "unlockStars": 1500,
+      "basePrice": 1.35
+    },
+    "sushi-variation:158": {
+      "name": "Unagi Garlic Chips Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 2.7
+    },
+    "sushi-variation:159": {
+      "name": "Ika Shiso Nigiri",
+      "unlockCoins": 5500,
+      "unlockStars": 1500,
+      "basePrice": 0.81
+    },
+    "sushi-variation:160": {
+      "name": "Lotus root Yuzu Nigiri",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 1.08
+    },
+    "sushi-variation:161": {
+      "name": "Mackerel Ginger Nigiri",
+      "unlockCoins": 4500,
+      "unlockStars": 1000,
+      "basePrice": 1.35
+    },
+    "sushi-variation:162": {
+      "name": "Bonito Scallion Nigiri",
+      "unlockCoins": 6000,
+      "unlockStars": 1500,
+      "basePrice": 2.16
+    },
+    "sushi-variation:163": {
+      "name": "Octopus Ponzu Nigiri",
+      "unlockCoins": 6000,
+      "unlockStars": 1500,
+      "basePrice": 1.35
+    },
+    "sushi-variation:164": {
+      "name": "Scallop Butter Nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 2.7
+    },
+    "sushi-variation:165": {
+      "name": "Avocado Garlic Chips Nigiri",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:166": {
+      "name": "Shiitake Teriyaki Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:167": {
+      "name": "Inari Garlic Chips Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:168": {
+      "name": "Salmon Cheese Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.62
+    },
+    "sushi-variation:169": {
+      "name": "Salmon Avocado Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.68
+    },
+    "sushi-variation:170": {
+      "name": "Salmon Scallion Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.725
+    },
+    "sushi-variation:171": {
+      "name": "Tuna Chili Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.08
+    },
+    "sushi-variation:172": {
+      "name": "Tuna Mayo Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.12
+    },
+    "sushi-variation:173": {
+      "name": "Tuna Cucumber Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.15
+    },
+    "sushi-variation:174": {
+      "name": "Salmon belly Chili Mayo Maki",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 1.62
+    },
+    "sushi-variation:175": {
+      "name": "Ootoro Scallion Maki",
+      "unlockCoins": 11000,
+      "unlockStars": 2500,
+      "basePrice": 2.97
+    },
+    "sushi-variation:176": {
+      "name": "Tamago Cheese Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.54
+    },
+    "sushi-variation:177": {
+      "name": "Tamago Mayo Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.56
+    },
+    "sushi-variation:178": {
+      "name": "Ika Rice Crackers Maki",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:179": {
+      "name": "Ikura Cucumber Maki",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 1.08
+    },
+    "sushi-variation:180": {
+      "name": "Tobiko Mayo Maki",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 1.35
+    },
+    "sushi-variation:181": {
+      "name": "Cucumber Garlic Chips Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.54
+    },
+    "sushi-variation:182": {
+      "name": "Avocado Jalapeno Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:183": {
+      "name": "Avocado Mayo Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.84
+    },
+    "sushi-variation:184": {
+      "name": "Corn Chili Mayo Gunkan",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.54
+    },
+    "sushi-variation:185": {
+      "name": "Corn Cheese Gunkan",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.56
+    },
+    "sushi-variation:186": {
+      "name": "Corn Mayo Gunkan",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.575
+    },
+    "sushi-variation:187": {
+      "name": "Wakame Garlic Chips Gunkan",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.81
+    },
+    "sushi-variation:188": {
+      "name": "Wakame Ginger Gunkan",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.84
+    },
+    "sushi-variation:189": {
+      "name": "Natto Scallion Gunkan",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.35
+    },
+    "sushi-variation:190": {
+      "name": "Natto Mustard Gunkan",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.4
+    },
+    "sushi-variation:191": {
+      "name": "Ikura Shiso Gunkan",
+      "unlockCoins": 11500,
+      "unlockStars": 2500,
+      "basePrice": 2.43
+    },
+    "sushi-variation:192": {
+      "name": "Tobiko Chili Mayo Gunkan",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 1.62
+    },
+    "sushi-variation:193": {
+      "name": "Uni Yuzu Gunkan",
+      "unlockCoins": 15500,
+      "unlockStars": 3500,
+      "basePrice": 4.86
+    },
+    "sushi-variation:194": {
+      "name": "Salmon Yuzu Sashimi",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 3.24
+    },
+    "sushi-variation:195": {
+      "name": "Tuna Garlic Chips Sashimi",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 2.7
+    },
+    "sushi-variation:196": {
+      "name": "Caviar Shiso Sashimi",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 5.67
+    },
+    "sushi-variation:197": {
+      "name": "Sea bream Ponzu Sashimi",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 1.89
+    },
+    "sushi-variation:198": {
+      "name": "Salmon Sweet Chili Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 2.16
+    },
+    "sushi-variation:199": {
+      "name": "Salmon Teriyaki Nigiri",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 2.24
+    },
+    "sushi-variation:200": {
+      "name": "Salmon Avocado Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 2.3
+    },
+    "sushi-variation:201": {
+      "name": "Tuna Chili Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.725
+    },
+    "sushi-variation:202": {
+      "name": "Tuna Wasabi Nigiri",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.62
+    },
+    "sushi-variation:203": {
+      "name": "Tuna Ponzu Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.68
+    },
+    "sushi-variation:204": {
+      "name": "Salmon belly Onion Nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 2.52
+    },
+    "sushi-variation:205": {
+      "name": "Salmon belly Garlic Chips Nigiri",
+      "unlockCoins": 9000,
+      "unlockStars": 2000,
+      "basePrice": 2.587
+    },
+    "sushi-variation:206": {
+      "name": "Ootoro Miso Glaze Nigiri",
+      "unlockCoins": 13500,
+      "unlockStars": 3000,
+      "basePrice": 2.8
+    },
+    "sushi-variation:207": {
+      "name": "Ootoro Cheese Nigiri",
+      "unlockCoins": 14000,
+      "unlockStars": 3000,
+      "basePrice": 2.875
+    },
+    "sushi-variation:208": {
+      "name": "Tamago Teriyaki Nigiri",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.575
+    },
+    "sushi-variation:209": {
+      "name": "Tamago Crispy Shallots Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.54
+    },
+    "sushi-variation:210": {
+      "name": "Shrimp Avocado Nigiri",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 1.4
+    },
+    "sushi-variation:211": {
+      "name": "Shrimp Scallion Nigiri",
+      "unlockCoins": 5500,
+      "unlockStars": 1500,
+      "basePrice": 1.438
+    },
+    "sushi-variation:212": {
+      "name": "Shrimp Jalapeno Nigiri",
+      "unlockCoins": 6000,
+      "unlockStars": 1500,
+      "basePrice": 1.35
+    },
+    "sushi-variation:213": {
+      "name": "Lotus root Shiso Nigiri",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 1.12
+    },
+    "sushi-variation:214": {
+      "name": "Ika Ginger Nigiri",
+      "unlockCoins": 4500,
+      "unlockStars": 1000,
+      "basePrice": 0.84
+    },
+    "sushi-variation:215": {
+      "name": "Ika Ponzu Nigiri",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 0.862
+    },
+    "sushi-variation:216": {
+      "name": "Caviar Scallion Nigiri",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 5.13
+    },
+    "sushi-variation:217": {
+      "name": "Caviar Yuzu Nigiri",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 5.32
+    },
+    "sushi-variation:218": {
+      "name": "Amberjack Shiso Nigiri",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 2.43
+    },
+    "sushi-variation:219": {
+      "name": "Amberjack Ponzu Nigiri",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 2.52
+    },
+    "sushi-variation:220": {
+      "name": "Sea bream Pickled Radish Nigiri",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 1.35
+    },
+    "sushi-variation:221": {
+      "name": "Sea bream Ginger Nigiri",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 1.4
+    },
+    "sushi-variation:222": {
+      "name": "Mackerel Pickled Red Onion Nigiri",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 1.4
+    },
+    "sushi-variation:223": {
+      "name": "Mackerel Ponzu Nigiri",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 1.438
+    },
+    "sushi-variation:224": {
+      "name": "Abalone Yuzu Nigiri",
+      "unlockCoins": 13500,
+      "unlockStars": 3000,
+      "basePrice": 2.97
+    },
+    "sushi-variation:225": {
+      "name": "Abalone Ponzu Nigiri",
+      "unlockCoins": 14000,
+      "unlockStars": 3000,
+      "basePrice": 3.08
+    },
+    "sushi-variation:226": {
+      "name": "Baby octopus Shiso Gunkan",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 1.35
+    },
+    "sushi-variation:227": {
+      "name": "Baby octopus Ginger Gunkan",
+      "unlockCoins": 4500,
+      "unlockStars": 1000,
+      "basePrice": 1.4
+    },
+    "sushi-variation:228": {
+      "name": "Bonito Ginger Nigiri",
+      "unlockCoins": 6000,
+      "unlockStars": 1500,
+      "basePrice": 2.24
+    },
+    "sushi-variation:229": {
+      "name": "Bonito Chili Nigiri",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 2.3
+    },
+    "sushi-variation:230": {
+      "name": "Octopus Miso Glaze Nigiri",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 1.4
+    },
+    "sushi-variation:231": {
+      "name": "Octopus Lime Nigiri",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 1.438
+    },
+    "sushi-variation:232": {
+      "name": "Scallop Yuzu Nigiri",
+      "unlockCoins": 9500,
+      "unlockStars": 2000,
+      "basePrice": 2.8
+    },
+    "sushi-variation:233": {
+      "name": "Scallop Tempura Crunch Nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 2.875
+    },
+    "sushi-variation:234": {
+      "name": "Surf clam Ponzu Nigiri",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 2.43
+    },
+    "sushi-variation:235": {
+      "name": "Ark shell Ginger Nigiri",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 2.16
+    },
+    "sushi-variation:236": {
+      "name": "Sweet shrimp Yuzu Nigiri",
+      "unlockCoins": 9500,
+      "unlockStars": 2000,
+      "basePrice": 1.89
+    },
+    "sushi-variation:237": {
+      "name": "Snow crab Butter Nigiri",
+      "unlockCoins": 11500,
+      "unlockStars": 2500,
+      "basePrice": 3.24
+    },
+    "sushi-variation:238": {
+      "name": "Salmon Tempura Crunch Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.62
+    },
+    "sushi-variation:239": {
+      "name": "Salmon Kimchi Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.68
+    },
+    "sushi-variation:240": {
+      "name": "Salmon Teriyaki Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.725
+    },
+    "sushi-variation:241": {
+      "name": "Tuna Pickled Radish Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 1.08
+    },
+    "sushi-variation:242": {
+      "name": "Tuna Crispy Shallots Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.12
+    },
+    "sushi-variation:243": {
+      "name": "Tuna Jalapeno Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.15
+    },
+    "sushi-variation:244": {
+      "name": "Salmon belly Avocado Maki",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 1.68
+    },
+    "sushi-variation:245": {
+      "name": "Salmon belly Red Pepper Maki",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 1.725
+    },
+    "sushi-variation:246": {
+      "name": "Ootoro Sweet Chili Maki",
+      "unlockCoins": 12000,
+      "unlockStars": 2500,
+      "basePrice": 3.08
+    },
+    "sushi-variation:247": {
+      "name": "Ootoro Roasted Tomato Maki",
+      "unlockCoins": 11000,
+      "unlockStars": 2500,
+      "basePrice": 3.162
+    },
+    "sushi-variation:248": {
+      "name": "Tamago Roasted Tomato Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.575
+    },
+    "sushi-variation:249": {
+      "name": "Tamago Teriyaki Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.54
+    },
+    "sushi-variation:250": {
+      "name": "Tamago Carrot Ribbons Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.56
+    },
+    "sushi-variation:251": {
+      "name": "Ika Ginger Maki",
+      "unlockCoins": 4500,
+      "unlockStars": 1000,
+      "basePrice": 0.84
+    },
+    "sushi-variation:252": {
+      "name": "Ika Jalapeno Maki",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 0.862
+    },
+    "sushi-variation:253": {
+      "name": "Ika Mushroom Maki",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:254": {
+      "name": "Ikura Mushroom Maki",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 1.12
+    },
+    "sushi-variation:255": {
+      "name": "Ikura Tempura Crunch Maki",
+      "unlockCoins": 10500,
+      "unlockStars": 2500,
+      "basePrice": 1.15
+    },
+    "sushi-variation:256": {
+      "name": "Ootoro Wasabi Maki",
+      "unlockCoins": 11000,
+      "unlockStars": 2500,
+      "basePrice": 2.97
+    },
+    "sushi-variation:257": {
+      "name": "Cucumber Pickled Radish Maki",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.56
+    },
+    "sushi-variation:258": {
+      "name": "Tobiko Red Pepper Maki",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 1.4
+    },
+    "sushi-variation:259": {
+      "name": "Tobiko Rice Crackers Maki",
+      "unlockCoins": 6000,
+      "unlockStars": 1500,
+      "basePrice": 1.438
+    },
+    "sushi-variation:260": {
+      "name": "Tobiko Chili Mayo Maki",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 1.35
+    },
+    "sushi-variation:261": {
+      "name": "Ikura Edamame Maki",
+      "unlockCoins": 10500,
+      "unlockStars": 2500,
+      "basePrice": 1.08
+    },
+    "sushi-variation:262": {
+      "name": "Ika Sweet Chili Maki",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 0.84
+    },
+    "sushi-variation:263": {
+      "name": "Salmon belly Mushroom Maki",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 1.62
+    },
+    "sushi-variation:264": {
+      "name": "Cucumber Edamame Maki",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.575
+    },
+    "sushi-variation:265": {
+      "name": "Cucumber Jalapeno Maki",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.54
+    },
+    "sushi-variation:266": {
+      "name": "Avocado Roasted Tomato Nigiri",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.862
+    },
+    "sushi-variation:267": {
+      "name": "Avocado Rice Crackers Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.81
+    },
+    "sushi-variation:268": {
+      "name": "Corn Carrot Ribbons Gunkan",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.54
+    },
+    "sushi-variation:269": {
+      "name": "Corn Tempura Crunch Gunkan",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 0.56
+    },
+    "sushi-variation:270": {
+      "name": "Wakame Edamame Gunkan",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.862
+    },
+    "sushi-variation:271": {
+      "name": "Wakame Lime Gunkan",
+      "unlockCoins": 2500,
+      "unlockStars": 500,
+      "basePrice": 0.81
+    },
+    "sushi-variation:272": {
+      "name": "Natto Miso Glaze Gunkan",
+      "unlockCoins": 3000,
+      "unlockStars": 1000,
+      "basePrice": 1.438
+    },
+    "sushi-variation:273": {
+      "name": "Natto Kimchi Gunkan",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 1.35
+    },
+    "sushi-variation:274": {
+      "name": "Ikura Pickled Radish Gunkan",
+      "unlockCoins": 11000,
+      "unlockStars": 2500,
+      "basePrice": 2.52
+    },
+    "sushi-variation:275": {
+      "name": "Ikura Rice Crackers Gunkan",
+      "unlockCoins": 11500,
+      "unlockStars": 2500,
+      "basePrice": 2.587
+    },
+    "sushi-variation:276": {
+      "name": "Tobiko Carrot Ribbons Gunkan",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 1.68
+    },
+    "sushi-variation:277": {
+      "name": "Tobiko Sweet Chili Gunkan",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 1.725
+    },
+    "sushi-variation:278": {
+      "name": "Salmon Pickled Red Onion Sashimi",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 3.36
+    },
+    "sushi-variation:279": {
+      "name": "Salmon Teriyaki Sashimi",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 3.45
+    },
+    "sushi-variation:280": {
+      "name": "Tuna Chili Sashimi",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 2.8
+    },
+    "sushi-variation:281": {
+      "name": "Tuna Edamame Sashimi",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 2.875
+    },
+    "sushi-variation:282": {
+      "name": "Ootoro Pickled Red Onion Sashimi",
+      "unlockCoins": 16000,
+      "unlockStars": 3500,
+      "basePrice": 4.05
+    },
+    "sushi-variation:283": {
+      "name": "Ootoro Mushroom Sashimi",
+      "unlockCoins": 15000,
+      "unlockStars": 3000,
+      "basePrice": 4.2
+    },
+    "sushi-variation:284": {
+      "name": "Salmon belly Kimchi Sashimi",
+      "unlockCoins": 10500,
+      "unlockStars": 2500,
+      "basePrice": 3.51
+    },
+    "sushi-variation:285": {
+      "name": "Salmon belly Tempura Crunch Sashimi",
+      "unlockCoins": 11000,
+      "unlockStars": 2500,
+      "basePrice": 3.64
+    },
+    "sushi-variation:286": {
+      "name": "Caviar Yuzu Sashimi",
+      "unlockCoins": 8000,
+      "unlockStars": 2000,
+      "basePrice": 5.88
+    },
+    "sushi-variation:287": {
+      "name": "Caviar Red Pepper Sashimi",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 6.036
+    },
+    "sushi-variation:288": {
+      "name": "Amberjack Carrot Ribbons Sashimi",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 2.7
+    },
+    "sushi-variation:289": {
+      "name": "Amberjack Chili Sashimi",
+      "unlockCoins": 9000,
+      "unlockStars": 2000,
+      "basePrice": 2.8
+    },
+    "sushi-variation:290": {
+      "name": "Sea bream Lime Sashimi",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 1.96
+    },
+    "sushi-variation:291": {
+      "name": "Sea bream Crispy Shallots Sashimi",
+      "unlockCoins": 9000,
+      "unlockStars": 2000,
+      "basePrice": 2.012
+    },
+    "sushi-variation:292": {
+      "name": "Mackerel Kimchi Sashimi",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 1.62
+    },
+    "sushi-variation:293": {
+      "name": "Mackerel Pickled Red Onion Sashimi",
+      "unlockCoins": 5500,
+      "unlockStars": 1500,
+      "basePrice": 1.68
+    },
+    "sushi-variation:294": {
+      "name": "Octopus Tempura Crunch Sashimi",
+      "unlockCoins": 8500,
+      "unlockStars": 2000,
+      "basePrice": 2.16
+    },
+    "sushi-variation:295": {
+      "name": "Octopus Red Pepper Sashimi",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 2.24
+    },
+    "sushi-variation:296": {
+      "name": "Scallop Miso Glaze Sashimi",
+      "unlockCoins": 11500,
+      "unlockStars": 2500,
+      "basePrice": 3.51
+    },
+    "sushi-variation:297": {
+      "name": "Scallop Butter Sashimi",
+      "unlockCoins": 12000,
+      "unlockStars": 2500,
+      "basePrice": 3.64
+    },
+    "sushi-variation:298": {
+      "name": "Salmon Truffle Nigiri",
+      "unlockCoins": 4000,
+      "unlockStars": 1000,
+      "basePrice": 2.3
+    },
+    "sushi-variation:299": {
+      "name": "Scallop Truffle Nigiri",
+      "unlockCoins": 10500,
+      "unlockStars": 2500,
+      "basePrice": 2.875
+    },
+    "sushi-variation:300": {
+      "name": "Ootoro Truffle Sashimi",
+      "unlockCoins": 16000,
+      "unlockStars": 3500,
+      "basePrice": 4.312
+    },
+    "sushi-variation:301": {
+      "name": "Avocado Truffle Nigiri",
+      "unlockCoins": 3500,
+      "unlockStars": 1000,
+      "basePrice": 0.862
+    },
+    "sushi-variation:302": {
+      "name": "Salmon belly Aburi Nigiri",
+      "unlockCoins": 9500,
+      "unlockStars": 2000,
+      "basePrice": 2.75
+    },
+    "sushi-variation:303": {
+      "name": "Ootoro Aburi Nigiri",
+      "unlockCoins": 14000,
+      "unlockStars": 3000,
+      "basePrice": 3.0
+    },
+    "sushi-variation:304": {
+      "name": "Scallop Aburi Nigiri",
+      "unlockCoins": 10500,
+      "unlockStars": 2500,
+      "basePrice": 3.0
+    },
+    "sushi-variation:305": {
+      "name": "Caviar Aburi Nigiri",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 5.25
+    },
+    "sushi-variation:306": {
+      "name": "Salmon Aburi Nigiri",
+      "unlockCoins": 4500,
+      "unlockStars": 1000,
+      "basePrice": 2.5
+    },
+    "sushi-variation:307": {
+      "name": "Tuna Aburi Nigiri",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 2.0
+    },
+    "sushi-variation:308": {
+      "name": "Shrimp Aburi Nigiri",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 1.75
+    },
+    "sushi-variation:309": {
+      "name": "Ika Aburi Nigiri",
+      "unlockCoins": 6000,
+      "unlockStars": 1500,
+      "basePrice": 1.25
+    },
+    "sushi-variation:310": {
+      "name": "Wagyu Garlic Chips Nigiri",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 4.59
+    },
+    "sushi-variation:311": {
+      "name": "Wagyu Wasabi Nigiri",
+      "unlockCoins": 7000,
+      "unlockStars": 1500,
+      "basePrice": 4.76
+    },
+    "sushi-variation:312": {
+      "name": "Wagyu Scallion Gunkan",
+      "unlockCoins": 6500,
+      "unlockStars": 1500,
+      "basePrice": 5.13
+    },
+    "sushi-variation:313": {
+      "name": "Wagyu Kimchi Gunkan",
+      "unlockCoins": 7500,
+      "unlockStars": 1500,
+      "basePrice": 5.32
+    },
+    "sushi-variation:314": {
+      "name": "Baby octopus Yuzu Sashimi",
+      "unlockCoins": 5000,
+      "unlockStars": 1000,
+      "basePrice": 1.15
+    },
+    "sushi-variation:315": {
+      "name": "Baby octopus Wasabi Sashimi",
+      "unlockCoins": 5500,
+      "unlockStars": 1500,
+      "basePrice": 1.15
+    },
+    "sushi-variation:320": {
+      "name": "Spicy-mayo crab maki",
+      "unlockCoins": 12000,
+      "unlockStars": 2500,
+      "basePrice": 3.75
+    },
+    "sushi:0:0": {
+      "name": "Salmon nigiri",
+      "unlockCoins": 0,
+      "unlockStars": 0,
+      "basePrice": 2.0
+    },
+    "sushi:0:1": {
+      "name": "Salmon maki",
+      "unlockCoins": 0,
+      "unlockStars": 0,
+      "basePrice": 1.5
+    },
+    "sushi:0:2": {
+      "name": "Salmon sashimi",
+      "unlockCoins": 25000,
+      "unlockStars": 5000,
+      "basePrice": 3.0
+    },
+    "sushi:10:3": {
+      "name": "Uni gunkan",
+      "unlockCoins": 62500,
+      "unlockStars": 12500,
+      "basePrice": 4.5
+    },
+    "sushi:11:0": {
+      "name": "Unagi nigiri",
+      "unlockCoins": 1500,
+      "unlockStars": 100,
+      "basePrice": 2.5
+    },
+    "sushi:11:2": {
+      "name": "Unagi sashimi",
+      "unlockCoins": 35000,
+      "unlockStars": 7000,
+      "basePrice": 3.25
+    },
+    "sushi:12:0": {
+      "name": "Caviar nigiri",
+      "unlockCoins": 75000,
+      "unlockStars": 15000,
+      "basePrice": 4.75
+    },
+    "sushi:12:2": {
+      "name": "Caviar sashimi",
+      "unlockCoins": 80000,
+      "unlockStars": 16000,
+      "basePrice": 5.25
+    },
+    "sushi:13:0": {
+      "name": "Amberjack nigiri",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 2.25
+    },
+    "sushi:13:2": {
+      "name": "Amberjack sashimi",
+      "unlockCoins": 35000,
+      "unlockStars": 7000,
+      "basePrice": 2.5
+    },
+    "sushi:14:0": {
+      "name": "Sea bream nigiri",
+      "unlockCoins": 27500,
+      "unlockStars": 5500,
+      "basePrice": 1.25
+    },
+    "sushi:14:2": {
+      "name": "Sea bream sashimi",
+      "unlockCoins": 32500,
+      "unlockStars": 6500,
+      "basePrice": 1.75
+    },
+    "sushi:15:0": {
+      "name": "Mackerel nigiri",
+      "unlockCoins": 15000,
+      "unlockStars": 3000,
+      "basePrice": 1.25
+    },
+    "sushi:15:2": {
+      "name": "Mackerel sashimi",
+      "unlockCoins": 20000,
+      "unlockStars": 4000,
+      "basePrice": 1.5
+    },
+    "sushi:17:2": {
+      "name": "Baby octopus sashimi",
+      "unlockCoins": 20000,
+      "unlockStars": 4000,
+      "basePrice": 1.0
+    },
+    "sushi:17:3": {
+      "name": "Baby octopus gunkan",
+      "unlockCoins": 15000,
+      "unlockStars": 3000,
+      "basePrice": 1.25
+    },
+    "sushi:18:0": {
+      "name": "Bonito nigiri",
+      "unlockCoins": 20000,
+      "unlockStars": 4000,
+      "basePrice": 2.0
+    },
+    "sushi:18:2": {
+      "name": "Bonito sashimi",
+      "unlockCoins": 25000,
+      "unlockStars": 5000,
+      "basePrice": 2.75
+    },
+    "sushi:19:0": {
+      "name": "Octopus nigiri",
+      "unlockCoins": 25000,
+      "unlockStars": 5000,
+      "basePrice": 1.25
+    },
+    "sushi:19:2": {
+      "name": "Octopus sashimi",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 2.0
+    },
+    "sushi:1:0": {
+      "name": "Tuna nigiri",
+      "unlockCoins": 0,
+      "unlockStars": 0,
+      "basePrice": 1.5
+    },
+    "sushi:1:1": {
+      "name": "Tuna maki",
+      "unlockCoins": 0,
+      "unlockStars": 0,
+      "basePrice": 1.0
+    },
+    "sushi:1:2": {
+      "name": "Tuna sashimi",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 2.5
+    },
+    "sushi:20:0": {
+      "name": "Scallop nigiri",
+      "unlockCoins": 37500,
+      "unlockStars": 7500,
+      "basePrice": 2.5
+    },
+    "sushi:20:2": {
+      "name": "Scallop sashimi",
+      "unlockCoins": 45000,
+      "unlockStars": 9000,
+      "basePrice": 3.25
+    },
+    "sushi:21:0": {
+      "name": "Surf clam nigiri",
+      "unlockCoins": 25000,
+      "unlockStars": 5000,
+      "basePrice": 2.25
+    },
+    "sushi:21:2": {
+      "name": "Surf clam sashimi",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 2.75
+    },
+    "sushi:22:0": {
+      "name": "Ark shell nigiri",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 2.0
+    },
+    "sushi:22:2": {
+      "name": "Ark shell sashimi",
+      "unlockCoins": 35000,
+      "unlockStars": 7000,
+      "basePrice": 3.0
+    },
+    "sushi:23:0": {
+      "name": "Sweet shrimp nigiri",
+      "unlockCoins": 35000,
+      "unlockStars": 7000,
+      "basePrice": 1.75
+    },
+    "sushi:23:2": {
+      "name": "Sweet shrimp sashimi",
+      "unlockCoins": 42500,
+      "unlockStars": 8500,
+      "basePrice": 2.5
+    },
+    "sushi:24:0": {
+      "name": "Snow crab nigiri",
+      "unlockCoins": 42500,
+      "unlockStars": 8500,
+      "basePrice": 3.0
+    },
+    "sushi:24:2": {
+      "name": "Snow crab sashimi",
+      "unlockCoins": 50000,
+      "unlockStars": 10000,
+      "basePrice": 3.75
+    },
+    "sushi:25:0": {
+      "name": "Abalone nigiri",
+      "unlockCoins": 52500,
+      "unlockStars": 10500,
+      "basePrice": 2.75
+    },
+    "sushi:25:2": {
+      "name": "Abalone sashimi",
+      "unlockCoins": 62500,
+      "unlockStars": 12500,
+      "basePrice": 3.5
+    },
+    "sushi:27:1": {
+      "name": "Cucumber maki",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 0.5
+    },
+    "sushi:28:0": {
+      "name": "Avocado nigiri",
+      "unlockCoins": 12500,
+      "unlockStars": 2500,
+      "basePrice": 0.75
+    },
+    "sushi:2:0": {
+      "name": "Salmon belly nigiri",
+      "unlockCoins": 35000,
+      "unlockStars": 7000,
+      "basePrice": 2.25
+    },
+    "sushi:2:1": {
+      "name": "Salmon belly maki",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 1.5
+    },
+    "sushi:2:2": {
+      "name": "Salmon belly sashimi",
+      "unlockCoins": 40000,
+      "unlockStars": 8000,
+      "basePrice": 3.25
+    },
+    "sushi:30:0": {
+      "name": "Wagyu nigiri",
+      "unlockCoins": 67500,
+      "unlockStars": 13500,
+      "basePrice": 4.25
+    },
+    "sushi:30:3": {
+      "name": "Wagyu gunkan",
+      "unlockCoins": 72500,
+      "unlockStars": 14500,
+      "basePrice": 4.75
+    },
+    "sushi:31:0": {
+      "name": "Shiitake nigiri",
+      "unlockCoins": 12500,
+      "unlockStars": 2500,
+      "basePrice": 0.75
+    },
+    "sushi:32:0": {
+      "name": "Inari nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 0.75
+    },
+    "sushi:33:3": {
+      "name": "Natto gunkan",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 1.25
+    },
+    "sushi:34:3": {
+      "name": "Wakame gunkan",
+      "unlockCoins": 0,
+      "unlockStars": 0,
+      "basePrice": 0.75
+    },
+    "sushi:35:3": {
+      "name": "Corn gunkan",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 0.5
+    },
+    "sushi:36:0": {
+      "name": "Lobster nigiri",
+      "unlockCoins": 62500,
+      "unlockStars": 12500,
+      "basePrice": 3.125
+    },
+    "sushi:36:2": {
+      "name": "Lobster sashimi",
+      "unlockCoins": 75000,
+      "unlockStars": 15000,
+      "basePrice": 4.0
+    },
+    "sushi:36:3": {
+      "name": "Lobster gunkan",
+      "unlockCoins": 67500,
+      "unlockStars": 13500,
+      "basePrice": 3.25
+    },
+    "sushi:38:1": {
+      "name": "Soft-shell crab maki",
+      "unlockCoins": 47500,
+      "unlockStars": 9500,
+      "basePrice": 3.25
+    },
+    "sushi:38:2": {
+      "name": "Soft-shell crab sashimi",
+      "unlockCoins": 55000,
+      "unlockStars": 11000,
+      "basePrice": 4.0
+    },
+    "sushi:3:0": {
+      "name": "Ootoro nigiri",
+      "unlockCoins": 52500,
+      "unlockStars": 10500,
+      "basePrice": 2.5
+    },
+    "sushi:3:1": {
+      "name": "Ootoro maki",
+      "unlockCoins": 45000,
+      "unlockStars": 9000,
+      "basePrice": 2.75
+    },
+    "sushi:3:2": {
+      "name": "Ootoro sashimi",
+      "unlockCoins": 60000,
+      "unlockStars": 12000,
+      "basePrice": 3.75
+    },
+    "sushi:40:0": {
+      "name": "Kani stick nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 0.75
+    },
+    "sushi:40:2": {
+      "name": "Kani stick sashimi",
+      "unlockCoins": 15000,
+      "unlockStars": 3000,
+      "basePrice": 1.25
+    },
+    "sushi:40:3": {
+      "name": "Kani stick gunkan",
+      "unlockCoins": 12500,
+      "unlockStars": 2500,
+      "basePrice": 1.0
+    },
+    "sushi:41:2": {
+      "name": "Fugu sashimi",
+      "unlockCoins": 100000,
+      "unlockStars": 20000,
+      "basePrice": 5.5
+    },
+    "sushi:4:0": {
+      "name": "Tamago nigiri",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 0.5
+    },
+    "sushi:4:1": {
+      "name": "Tamago maki",
+      "unlockCoins": 10000,
+      "unlockStars": 2000,
+      "basePrice": 0.5
+    },
+    "sushi:4:2": {
+      "name": "Tamago sashimi",
+      "unlockCoins": 0,
+      "unlockStars": 0,
+      "basePrice": 1.25
+    },
+    "sushi:5:1": {
+      "name": "Tobiko maki",
+      "unlockCoins": 25000,
+      "unlockStars": 5000,
+      "basePrice": 1.25
+    },
+    "sushi:5:3": {
+      "name": "Tobiko gunkan",
+      "unlockCoins": 30000,
+      "unlockStars": 6000,
+      "basePrice": 1.5
+    },
+    "sushi:6:1": {
+      "name": "Ikura maki",
+      "unlockCoins": 37500,
+      "unlockStars": 7500,
+      "basePrice": 1.0
+    },
+    "sushi:6:3": {
+      "name": "Ikura gunkan",
+      "unlockCoins": 45000,
+      "unlockStars": 9000,
+      "basePrice": 2.25
+    },
+    "sushi:7:0": {
+      "name": "Lotus root nigiri",
+      "unlockCoins": 17500,
+      "unlockStars": 3500,
+      "basePrice": 1.0
+    },
+    "sushi:7:2": {
+      "name": "Lotus root sashimi",
+      "unlockCoins": 22500,
+      "unlockStars": 4500,
+      "basePrice": 1.25
+    },
+    "sushi:8:0": {
+      "name": "Ika nigiri",
+      "unlockCoins": 17500,
+      "unlockStars": 3500,
+      "basePrice": 0.75
+    },
+    "sushi:8:1": {
+      "name": "Ika maki",
+      "unlockCoins": 15000,
+      "unlockStars": 3000,
+      "basePrice": 0.75
+    },
+    "sushi:8:2": {
+      "name": "Ika sashimi",
+      "unlockCoins": 22500,
+      "unlockStars": 4500,
+      "basePrice": 1.0
+    },
+    "sushi:9:0": {
+      "name": "Shrimp nigiri",
+      "unlockCoins": 22500,
+      "unlockStars": 4500,
+      "basePrice": 1.25
+    },
+    "sushi:9:2": {
+      "name": "Shrimp sashimi",
+      "unlockCoins": 27500,
+      "unlockStars": 5500,
+      "basePrice": 1.5
+    }
+  }
+}
